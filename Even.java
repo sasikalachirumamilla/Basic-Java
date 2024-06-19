@@ -1,17 +1,14 @@
 import java.util.Scanner;
 class Even{
-public static void main(String[] args){
-Scanner s=new Scanner();
-System.out.println("Enter number:");
-int s1=s.nextInt();
-s.close();
-for(i=0;i<s1;i++)
+public static void main(String[] args)
 {
-float s2==i/2;
-if(s2==0)
+Scanner scanner=new Scanner(System.in);
+System.out.println("Enter number:");
+int s=scanner.nextInt();
+scanner.close();
+for(int i=0;i<s;i+=2)
+{
 System.out.println(i);
-else
-i++;
 }
 }
 }
