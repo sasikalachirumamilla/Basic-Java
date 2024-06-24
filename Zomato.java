@@ -22,7 +22,6 @@ System.out.println("3.Kruthunga");
 System.out.println("4.Bawarchei");
 System.out.println("5.Merideian");
 System.out.println("____________________________________");
-
 select=sc.nextInt();
 
 switch(select)
@@ -46,9 +45,9 @@ switch(s)
 {
 case 1:
 {
-System.out.println("");
+System.out.println("_______________________________________");
 System.out.println("Your Selected Veg Biriyani");
-System.out.println("");
+System.out.println("________________________________________");
 System.out.println("How Many U Want ? ");
 System.out.println("----------------------------------------");
 int q=sc.nextInt();  
@@ -93,7 +92,7 @@ System.out.println("___________________________________");
 System.out.println("VegBiriyani Cost = "+vbc1+ " * "+q1+ " = "+bc1+"/- Rupees");
 System.out.println("GST = "+gst1);
 System.out.println("TAX = "+tax1);
-System.out.println("Your Discount is 10 % = "+discount+"/- Rupees");
+System.out.println("Your Discount is 10 % = "+discount1+"/- Rupees");
 System.out.println("After  Discount  Your  Bill is ="+afterdiscount1+"/- Rupees");
 System.out.println("Your Final Bill is = " +finalcost1+"/- Rupees");
 System.out.println("_____________________________________");
@@ -124,7 +123,7 @@ System.out.println("GST = "+gst2);
 System.out.println("TAX = "+tax2);
 System.out.println("Your Discount is 10 % = "+discount2+"/- Rupees");
 System.out.println("After  Discount  Your  Bill is ="+afterdiscount2+"/- Rupees");
-System.out.println("Your Final Bill is = " +finalcost+"/- Rupees");
+System.out.println("Your Final Bill is = " +finalcost2+"/- Rupees");
 System.out.println("_____________________________________");
 System.out.println("Thank You For  Ordering");
 System.out.println("______________________________________");
@@ -188,7 +187,7 @@ break;
 }//Internal case1 Closing
 case 2:
 {
-System.out.println("");
+System.out.println("__________________________________________");
 System.out.println("Your  Selected Chicken Biriyani");
 System.out.println("");
 System.out.println("How Many U Want ? ");
@@ -233,12 +232,10 @@ System.out.println("1.Egg Noodles");
 System.out.println("2.Chicken Noodles");
 System.out.println("3.Double Egg Noodles");
 System.out.println("_____________________________________");
-System.out.println("*Select Your FAV ITEM");
-s1=sc.nextInt();
+System.out.println("Select Your FAV ITEM");
+s2=sc.nextInt();
 switch(s2)
 {
-
-
 case 1:
 {
 System.out.println("_______________________________________");
@@ -246,7 +243,7 @@ System.out.println("Your Selected Egg Noodles");
 System.out.println("_______________________________________");
 System.out.println("How Many U Want ? ");
 System.out.println("----------------------------------------");
-int q6=sc2.nextInt();  
+int q6=sc.nextInt();  
 int vbc6=60;    
 int bc6=q6*vbc6;  
 int discount6=5*bc6/100; 
@@ -254,6 +251,7 @@ int afterdiscount6=bc6-discount6;
 int gst6=18*bc6/100; 
 int tax6=20;
 int finalcost6=afterdiscount6+gst6+tax6;
+
 System.out.println("____________________");
 System.out.println("____________________");
 System.out.println("Egg Noodles Cost = "+vbc6+ " * "+q6+ " = "+bc6+"/-Rupees");
@@ -275,9 +273,9 @@ System.out.println("Your  Selected Chicken Noodles");
 System.out.println("________________________________________");
 System.out.println("How Many U Want ? ");
 System.out.println("----------------------------------------");
-int q7=sc2.nextInt();  
+int q7=sc.nextInt();  
 int vbc7=120;    
-int bc7=q7*vbc;  
+int bc7=q7*vbc7;  
 int discount7=5*bc7/100; 
 int afterdiscount7=bc7-discount7; 
 int gst7=18*bc7/100; 
@@ -304,9 +302,9 @@ System.out.println("Your  Selected Double Egg Noodles");
 System.out.println("_______________________________________");
 System.out.println("How Many U Want ? ");
 System.out.println("----------------------------------------");
-int q8=sc2.nextInt();  
+int q8=sc.nextInt();  
 int vbc8=100;    
-int bc8=q8*vbc;  
+int bc8=q8*vbc8;  
 int discount8=5*bc8/100; 
 int afterdiscount8=bc8-discount8; 
 int gst8=18*bc8/100; 
@@ -328,11 +326,12 @@ break;
 default:
 {
 System.out.println("Invalid Option");
-}
+sc.close();
 }//internal switch close
 break;
-}// main case1 closing
+}
 
+}
 
 
 
