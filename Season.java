@@ -4,7 +4,7 @@ int a;
 Scanner sc=new Scanner(System.in);
 
 void print(){
-System.out.println("Enter any Season number");
+System.out.println("Enter any Season number:");
 a=sc.nextInt();
 switch(a)
 {
