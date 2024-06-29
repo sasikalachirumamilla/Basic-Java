@@ -1,3 +1,4 @@
+//Actual Parameters
 class Student
 {
 int rollnum;
