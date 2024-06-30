@@ -1,3 +1,4 @@
+//Formal Parameters
 class Student
 {
 int rollnum;
@@ -36,6 +37,5 @@ Student s=new Student(10,"Ramesh",96405917);
 s.Task();
 Student s1=new Student(101,"Suresh",866405917,22);
 s1.Task();
-
 }
 }
