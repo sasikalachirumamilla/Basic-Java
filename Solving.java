@@ -6,7 +6,7 @@ String c;
 java.util.Scanner s=new java.util.Scanner(System.in);
 
 
-//Constructor for Arithmetic Operation 
+//taking Constructor for Arithmetic Operation 
 Solve(int a, int b)
 {
 this.a=a;
@@ -14,7 +14,7 @@ this.b=b;
 System.out.println("This is Constructor Actual Parameters");
 }
 
-//constructor for string
+//taking constructor for string
 Solve(int a,int b,String c)
 {
 this.a=a;

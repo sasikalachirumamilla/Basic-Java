@@ -39,7 +39,7 @@ public static void main(String[]args)
 {
 WhatsApp wa=new WhatsApp(964051713,"Hi ,Gud Morning");
 wa.Whats();
-//wa.Whats("Happy BirthDay Rams");
+wa.Whats("Happy BirthDay Rams");
 wa.Whats("Happy BirthDay Rams","samantha");
 
 }
