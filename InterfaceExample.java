@@ -26,7 +26,7 @@ System.out.println("Task1 is Completed");
 }
 public void Task2()
 {
-System.out.println("I'm From"+ProjectManager1.TeamName+"Team");
+System.out.println("I'm  From"+ProjectManager1.TeamName+"Team");
 int a=10,b=20;
 int c=b-a;
 System.out.println("A & B Subtraction= "+c);
