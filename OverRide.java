@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Primitive{
+class OverRide{
 byte b;
 short s;
 int i;
@@ -24,14 +24,16 @@ System.out.println("Total values of primitive datatypes are:"+b+" "+s+" "+i);
 
 public static void main(String...args)
 {
-Primitive p=new Primitive();
+OverRide p=new OverRide();
 p.print();
-}
-
-public static void main(String...args)
-{
-Primitive p=new Primitive();
 p.print1();
 }
+
+/*
+public static void main1(String...args)
+{
+OverRide p=new OverRide();
+p.print1();
+}*/
 }
  
