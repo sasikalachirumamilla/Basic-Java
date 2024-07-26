@@ -19,6 +19,7 @@ System.out.println("Value of short is: "+a2);
 System.out.println("Value of long is: "+a3);
 }
 
+
 void task1()
 {
 byte b1=(byte)a;
