@@ -27,7 +27,6 @@ public void  SelectMovie()
 System.out.println("welecome to AMB");
 System.out.println("Ur Select Darling");
 
-
 }
 
 }
