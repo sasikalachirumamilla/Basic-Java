@@ -15,7 +15,7 @@ class INOX implements Movie
 {
 public void  SelectMovie()
 {
-System.out.println("welecome to INOX");
+System.out.println("welecomem to INOX");
 System.out.println("Ur Select THE GOAT");
 }
 
