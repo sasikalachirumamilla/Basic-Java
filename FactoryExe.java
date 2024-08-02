@@ -13,7 +13,6 @@ System.out.println("Ur Select KALKI");
 }
 
 
-
 class INOX implements Movie
 {
 public void  SelectMovie()
